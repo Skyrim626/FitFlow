@@ -1,0 +1,86 @@
+/******************** Timeline CSS STYLE Section ******************************/
+
+
+.top-section {
+    text-align: center;
+    padding: 4rem 0;
+    margin: 0 auto;
+}
+
+.timeline {
+    position: relative;
+
+    min-height: 150px;
+}
+
+.timeline .line {
+    position: absolute;
+    z-index: 2;
+    left: calc(50% - 1px);
+    width: 2px;
+    top: -50px;
+    bottom: -50px;
+    background: white;
+    display: none;
+}
+
+.timeline .line:before,
+.line:after {
+    position: absolute;
+    display: block;
+    content: '';
+    height: 1rem;
+    width: 1rem;
+    border-radius: 50%;
+    background: white;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+
+.line:after {
+    bottom: 0;
+}
+
+.timeline .timeline-section {
+    display: flex;
+    opacity: 0;
+    transform: translateX(-100%);
+    transition: 600ms ease;
+    z-index: 1;
+    margin: 50px 0;
+    padding: 1rem;
+    border-radius: 1rem;
+    align-items: center;
+    min-height: 300px;
+
+}
+
+.timeline .timeline-section:nth-child(odd) {
+    flex-direction: row-reverse;
+    transform: translateX(100%);
+
+}
+
+.bead {
+    position: absolute;
+    display: block;
+    height: 1rem;
+    width: 1rem;
+    border-radius: 50%;
+    background: white;
+    left: 50%;
+    top: 20%;
+    transform: translateX(-50%);
+
+}
+
+.bead .content {
+    width: calc(50% - 2rem);
+}
+
+.show-me:nth-child(n) {
+    transform: none;
+    opacity: 1;
+
+}

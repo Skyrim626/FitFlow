@@ -1,0 +1,21 @@
+
+/******************* Navbar Scroll Down Effect  ************************/
+.navigation {
+    background: transparent;
+    position: fixed;
+       align-items: center;
+       display: flex;
+       justify-content: center;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 10000;
+        transition: 0.6s;
+}
+
+.navigation.active {
+    background: black;   
+    padding: 2px 100px;
+}
+
+/************************ Media Query *****************/

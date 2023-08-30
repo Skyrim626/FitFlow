@@ -1,0 +1,15 @@
+
+
+/******************************* Button Scroll Down Effect *************************/
+button.active {
+    background: white !important;
+    color: black !important;
+    transition: 0.3s;
+}
+
+/********************************** 
+Button Hover Effect
+**************************/
+button:hover {
+    opacity: 0.9;
+}

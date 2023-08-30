@@ -1,0 +1,189 @@
+
+
+
+/******************** Introduction Section ******************************/
+.section.home {
+    background: #121212;
+    position: relative !important;
+    height: 100vh;
+    overflow: hidden;
+    width: 100%;
+}
+
+
+/************************* Navigation Slider Effect (Introduction Section) ************************/
+
+.section.home .slider-navigation {
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    align-items: center;
+    bottom: 0;
+    margin-bottom: 1rem;
+    gap: 20px;
+}
+
+.section.home .slider-navigation .nav-btn {
+    cursor: pointer;
+    width: 18px;
+    height: 18px;
+    background: black;
+    border: 2px solid black;
+    opacity: 0.8;
+    border-radius: 50%;
+}
+
+.section.home .slider-navigation .nav-btn.active {
+    background: white;
+    opacity: 1;
+}
+
+/******************** Routine Section ******************************/
+.section.routine {
+    background: #fff;
+    height: 100%;
+}
+
+.section.routine .routine-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.section.routine .container .routine-intro-content {
+    display: flex;
+    gap: 2rem;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+}
+
+.section.routine .container .routine-intro-content .routine-intro-link {
+    
+    width: 80%;
+    padding: 20px;
+}
+
+/******************* Card Layout *****************/
+/* .section.routine .routine-container .cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+} */
+
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+/******************** Nutrition Section ******************************/
+.section.nutrition {
+    background: black;
+    overflow: hidden;
+}
+
+
+.section.nutrition .container .nutrition-heading-content {
+    text-align: center;
+}
+
+.section.nutrition .container .nutrition-heading-content p {
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+
+.section.nutrition .container .nutrition-footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.section.nutrition .container .nutrition-footer-content p {
+    color: white;
+    width: 50%;
+}
+
+
+/******************** Mindfulness Section ******************************/
+.section.mindfulness {
+    height: 80vh;
+    width: 100%;
+    background: #121212;
+    position: relative;
+}
+
+.section.mindfulness .container {
+    position: relative;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.section.mindfulness .container .mindfulness-content {
+   
+    width: 50%;
+}
+
+.section.mindfulness .container .mindfulness-content .mindfulness-subtext {
+    color: white;
+    font-size: 18px;
+}
+
+
+/******************** Testimony Section ******************************/
+.section.testimony {
+    background: #121212;
+    
+    width: 100%;
+    height: 100%;
+}
+
+.section.testimony .container .testimony-content p {
+    font-weight: 600;
+    font-size: 18px;
+    color: white;
+ 
+}
+
+.section.testimony .articles {
+    background: whitesmoke;
+}
+
+.article-content .article-title {
+    text-align: center;
+}
+
+.article-content .articles {
+    border-top: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.article-content .articles .article {
+    padding: 1.5rem;
+    border-left: 2px solid black;
+    height: 300px;
+    position: relative;
+}
+
+.article-content .articles .article p {
+    text-align: justify;
+    
+}
+
+.article-content .articles .article .link {
+    position: absolute;
+    bottom: 0;
+    padding-bottom: 1rem;
+}
+
+/******************** Video Content Section ******************************/
+
